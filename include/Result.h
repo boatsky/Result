@@ -9,7 +9,7 @@
     bool isErr;                                                                \
   }
 
-#define leaf_Result_IsErr(result) ((result.isErr))
+#define leaf_Result_IsErr(result) (result.isErr)
 
 #define leaf_Result_value(result) (result.value.ok)
 
